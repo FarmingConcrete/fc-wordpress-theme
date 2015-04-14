@@ -10,7 +10,7 @@
     "modernizr": "2.8.2",
     "jquery": "1.11.2",
     "bootstrap": "3.3.4",
-    "fc-less-common": "https://github.com/FarmingConcrete/fc-less-common.git#v0.2.1"
+    "fc-less-common": "https://github.com/FarmingConcrete/fc-less-common.git#v0.3.1"
   },
   "overrides": {
     "modernizr": {
