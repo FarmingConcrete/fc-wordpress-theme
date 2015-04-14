@@ -89,7 +89,7 @@ msgid "Farming Concrete"
 msgstr "Farming Concrete"
 
 #. Theme URI of the plugin/theme
-msgid "https://github.com/FarmingConcrete/wordpress-theme"
+msgid "https://github.com/FarmingConcrete/fc-wordpress-theme"
 msgstr ""
 
 #. Description of the plugin/theme
