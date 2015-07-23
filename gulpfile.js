@@ -72,14 +72,6 @@ var cssTasks = function(filename) {
       .pipe(function() {
         return $.if('*.less', $.less());
       })
-      .pipe(function() {
-        return $.if('*.scss', $.sass({
-          outputStyle: 'nested', // libsass doesn't support expanded yet
-          precision: 10,
-          includePaths: ['.'],
-          errLogToConsole: !enabled.failStyleTask
-        }));
-      })
       .pipe($.concat, filename)
       .pipe($.autoprefixer, {
         browsers: [
