@@ -31,7 +31,10 @@
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+        // Make the home page look more like the home page for Barn and Mill
+        // by moving the image to the right.
+        $('.main').before($('<div></div>').addClass('home-img'));
+        $('.home-img').append($('.main img:eq(0)'));
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
