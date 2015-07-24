@@ -1,7 +1,9 @@
 <?php use Roots\Sage\Nav\NavWalker; ?>
 
 <header>
-  <div class="logo"></div>
+  <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+    <div class="logo"></div>
+  </a>
   <div id="nav" class="banner navbar navbar-default navbar-static-top" role="banner">
     <div class="container-fluid">
       <div class="navbar-header">
